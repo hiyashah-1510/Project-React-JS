@@ -1,16 +1,64 @@
-# React + Vite
+# 📘 Project Description — React Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Explorer is an interactive learning application built using React.
+The main purpose of this project is to demonstrate all the core concepts of React through small, simple, real-time examples. It helps beginners understand how React works by showing JSX, Components, Props, State, Events, Lists, Forms, useEffect, and Class Components in an easy and practical way.
 
-Currently, two official plugins are available:
+The project contains multiple modules, where each module focuses on one React concept.
+The user can click buttons to switch between modules, and each module instantly updates on the screen because of React's rendering and component-based structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Everything in this project is done using React only — no backend, no database, no external storage.
 
-## React Compiler
+# 🎯 Project Objectives
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    -> To demonstrate how React builds UI using JSX
 
-## Expanding the ESLint configuration
+    -> To show how functional and class components work
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    -> To explain the difference between props and state
+
+    -> To show real-time UI updates using useState
+
+    -> To practice event handling like clicks and input changes
+
+    -> To render and filter lists using map() and keys
+
+    -> To build controlled forms using React state
+
+    -> To visualize lifecycle behavior using useEffect
+
+    -> To show class component lifecycle methods
+
+    -> To organize code using a modular component structure
+
+# 🧩 Project Features
+✔ 1. JSX Module
+
+Shows how JSX works, including expressions, attributes, and nested elements.
+
+✔ 2. Props Module
+
+Demonstrates passing data from parent to child components.
+
+✔ 3. State Module
+
+Shows how useState updates data instantly (e.g., counter example).
+
+✔ 4. Events Module
+
+Demonstrates event handling like button clicks and input events.
+
+✔ 5. List Rendering Module
+
+Displays arrays using map(), uses unique keys, and includes a search filter.
+
+✔ 6. Form Module
+
+Shows how to create controlled forms where input is managed by React state.
+
+✔ 7. useEffect Module
+
+Explains component mounting, updating, and unmounting with simple side effects (like a timer).
+
+✔ 8. Class Component Module
+
+Shows basic class component structure, state, and lifecycle methods.
