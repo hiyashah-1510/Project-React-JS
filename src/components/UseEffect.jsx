@@ -8,7 +8,7 @@ function UseEffect() {
 
     const timer = setInterval(() => {
       setTime(new Date());
-      console.log("🔄 Component Updated");
+      console.log("Component Updated");
     }, 1000);
 
     return () => {
