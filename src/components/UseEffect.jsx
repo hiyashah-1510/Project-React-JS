@@ -4,16 +4,16 @@ function UseEffect() {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
-    console.log("Component Mounted");
+    console.log("Component Mounted..!");
 
     const timer = setInterval(() => {
       setTime(new Date());
-      console.log("Component Updated");
+      console.log("Component Updated..!");
     }, 1000);
 
     return () => {
       clearInterval(timer);
-      console.log("Component Unmounted");
+      console.log("Component Unmounted..!");
     };
   }, []);
 
