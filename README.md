@@ -1,16 +1,29 @@
-# React + Vite
+# Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React Counter App is a simple and interactive project built using React’s functional components and the useState Hook. The application displays a numeric value that users can increase or decrease using dedicated buttons. It serves as an ideal beginner-friendly example to understand how state and events work in React.
 
-Currently, two official plugins are available:
+# Project Aim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To demonstrate how React manages dynamic data using state and how user interactions can update UI elements in real-time.
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    -> Displays current counter value
 
-## Expanding the ESLint configuration
+    -> Increment button to increase the count
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    -> Decrement button to decrease the count
+
+    -> Instant UI update when the state changes
+
+    -> Clean, minimal and beginner-friendly code
+
+# Technologies Used
+
+    -> React JS
+
+    -> JavaScript (ES6+)
+
+    -> HTML (JSX)
+
+    -> CSS (optional for styling)
